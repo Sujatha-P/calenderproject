@@ -1,51 +1,35 @@
-.calendar {
-  display: flex;
-  flex-direction: column;
+
+
+.headpart{
+  
+  height: 15vh;
   align-items: center;
-  background-color: rgb(85, 84, 84);
-  color: rgb(212, 207, 207);
-  width: 50%;
-  margin: auto;
-  margin-top: 10px;
 }
 
-.month-year {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 1rem 0;
-}
-
-.weekdays {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border-bottom: 1px solid #ccc;
-}
-
-.weekday {
-  width: calc(100% / 7);
-  text-align: center;
-  font-weight: bold;
-  padding: 0.5rem 0;
-}
-
-.days {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.day {
-  width: calc(100% / 7);
-  text-align: center;
-  padding: 0.5rem 0;
-}
-
-.day.empty {
-  color: #ccc;
-}
-
-.day.today {
-  background-color: #ccc;
+.part1-style{
+  align-items: center;
+  overflow: auto;
   color: white;
+  
+ 
+
+}
+.image-style{
+  align-items: center;
+}
+.Body-style{
+  
+
+  background-color: rgb(28, 164, 237);
+  height: 70vh;
+
+}
+
+@media screen and (max-width:500px) {
+  .Body-style{
+   width: 80%;
+
+  }
+  
+  
 }

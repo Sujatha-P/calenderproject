@@ -1,12 +1,13 @@
 
 import './App.css';
-import Calendar from './Component/Calendar/Calendar';
-import { Calenderform, MyComponent } from './Component/Calendar/Calenderform';
+
+import Proveway from './Component/PROVEWAYTask/PROVEWAY';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
    <div>
-   <Calenderform />
+   <Proveway/>
    </div>
   );
 }
